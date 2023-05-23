@@ -1,6 +1,7 @@
 import React from "react";
 import { players } from "../shared/ListOfPlayers";
 export default function Players() {
+    console.log(players);
         return (
             <div className="grid-container">
                 {players.map((player)=>(
