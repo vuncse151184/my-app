@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import { players } from "../shared/ListOfPlayers";
-export default class player extends Component {
-    render() {
+export default function Players() {
         return (
             <div className="grid-container">
                 {players.map((player)=>(
@@ -18,5 +17,4 @@ export default class player extends Component {
 
             </div>
         )
-    }
 }
